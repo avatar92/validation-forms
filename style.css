@@ -1,0 +1,30 @@
+.textColor
+{
+    color: white; 
+}
+
+
+body 
+{
+    background: linear-gradient(135deg, purple, blue); 
+    /*border: 1px solid yellow;*/
+    height: 100vh;
+}
+.textAreaColor
+{
+    background-color : rgba(35, 35, 54, 1)
+}
+.container 
+{
+    margin-top: 5%; 
+}
+@media only screen and (min-width: 992px){
+.container {
+width: 30%;
+
+}
+}
+/*.container{
+    
+    border: 1px solid red;
+}*/
