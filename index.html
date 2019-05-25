@@ -12,7 +12,7 @@
 <body >
  <main >
     <div class="container textColor">
-        <form name="myForm" onsubmit="return sendForm()">
+        <form name="myForm" action="#">
             <div class="form-group ">
                 <label for="firstName">First Name:</label>
                 <input type="name" name="fullname" class="form-control border-light textAreaColor textColor" id="firstName" placeholder="example: howard">
@@ -31,7 +31,7 @@
             <label for="comment">Comments:</label>
             <textarea class="form-control border-light textAreaColor textColor" id="comment" rows="3"></textarea>
             </div>
-            <input type="submit" class="btn btn-lg btn-block border-light textAreaColor textColor " />
+            <input type="button" class="btn btn-lg btn-block border-light textAreaColor textColor " value="send" onclick='sendForm()'/>
             <button type="reset" class="btn btn-lg btn-block border-light textAreaColor textColor ">Reset</button>
         </form>
         
